@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invention</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../js/data.js"></script>
+    <script src="../js/script.js"></script>
+    <link rel="icon" href="../images/logoAlone.png">
+</head>
+
+<body id="bodyRechisha">
+    <p id="thisP">סיכום הזמנה</p>
+    <form action="html.html" id="formInvent">
+
+
+        <div class="topInvent">
+            <input type="checkbox">
+            <p>יש לך קופון? <span>לחצ.י כאן כדי להזין את קוד הקופון</span></p>
+        </div>
+        <div class="theForm">
+            <div class="chiuvInvent">
+                <p><b>פרטי חיוב</b></p>
+                <hr>
+                <div class="inChiuvInvent">
+                    <label for="">כתובת אימייל <span>*</span></label>
+                    <input type="email" required>
+                    <div>
+                        <div>
+                            <label for="">שם פרטי <span>*</span></label>
+                            <input type="text" required id="rechiName" name="rechiName1">
+                        </div>
+                        <div>
+                            <label for="">שם משפחה <span>*</span></label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <label for="">טלפון(אופציונאלי)</label>
+                    <input type="tel">
+                    <label for="">שם החברה(אופציונאלי)</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="Invent2">
+                <p><b>פרטי ההזמנה</b></p>
+
+                <div class="prod">
+                    <p><b>מוצר</b></p>
+                    <p><b>סכום בינתיים</b></p>
+
+                </div>
+                <hr>
+                <div>
+                    <p>קורס בינה מלאכותית × 1</p>
+                    <p>357.00₪</p>
+                </div>
+                <hr>
+                <div>
+                    <p>סכום ביניים</p>
+                    <p>357.00₪</p>
+                </div>
+                <hr>
+                <div>
+                    <p>סה"כ</p>
+                    <p>357.00₪</p>
+                </div>
+                <hr>
+                <div class="thisDiv">
+                <input type="radio">
+                <label for="">כרטיס אשראי, ביט או Apple Pay</label>
+            </div>
+                <div class="topay">
+                    <p>שלמו בצורה מאובטחת באמצעות כרטיס אשראי.</p>
+                </div>
+
+                <div class="typ">
+                    <div>
+                        <input type="radio">
+                        <label for="">PayPal</label>
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label for="">כרטיס דיינרס ואמריקן אקספרס</label>
+                    </div>
+                </div>
+                <input type="submit" value="שליחת הזמנה" id="toSend">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

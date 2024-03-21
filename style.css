@@ -1,0 +1,960 @@
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI;
+}
+
+/* p{
+    color: black;
+} */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Segoe UI;
+  direction: rtl;
+  color: white;
+}
+
+#body {
+  background-color: rgb(17, 17, 19);
+  box-sizing: border-box;
+  /* background-image: url(images/BackGround.jpg);
+  background-repeat: repeat;
+  background-clip: border-box; */
+  color: white;
+}
+#bodym {
+  background-color: rgb(17, 17, 19);
+  box-sizing: border-box;
+  /* background-image: url(images/BackGround.jpg);
+  background-repeat: repeat;
+  background-clip: border-box; */
+  color: white;
+}
+#divchange{
+  color: white;
+  font-size: 3vh;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  background-color: rgb(17, 17, 19);
+  padding-bottom: 0.8vw;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+
+.nav .allLinks div a {
+  color: white;
+  font-size: 3vh;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+
+.nav .allLinks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+
+.nav img {
+  margin-top: 0.7vw;
+  height: 5vh;
+  width: auto;
+}
+
+#chat-messages {
+  margin-top: 70px;
+  text-align: right;
+}
+
+#chat-messages .rubi p {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2vh;
+  margin: 2vh;
+  width: 50%;
+}
+
+#chat-messages .user p {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 2vh;
+  margin: 2vh;
+  width: 35%;
+}
+
+#main {
+  padding-top: 12vh;
+}
+
+#main .hi {
+  font-size: 4.8vh;
+}
+
+#main .hi p span {
+  color: rgb(97, 251, 213);
+}
+
+#form {
+  direction: rtl;
+}
+
+#form #help {
+  width: 50vw;
+  height: 4.5vh;
+  border-radius: 10px;
+  transform: translateX(-0%);
+}
+
+#form #submit {
+  width: 5vw;
+  height: 4.5vh;
+  border-radius: 10px;
+  background-color: rgb(97, 251, 213);
+}
+
+#p {
+  padding-top: 2vh;
+  padding-bottom: 3.5vh;
+  font-size: 2vh;
+}
+
+#footer {
+  font-size: 2vh;
+}
+
+
+
+
+/* rubiPRO */
+.pro1 {
+  background-image: url(images/BackGroundPRO.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+  padding-top: 20vh;
+  /* padding-left: 20vw;  */
+  /* padding-right: 23vw; */
+}
+
+.pro1 pre span,
+h1 {
+  color: rgb(97, 251, 213);
+}
+
+.pro1 pre {
+  text-align: right;
+  font-size: 3vh;
+  font-family: Segoe UI;
+  margin-right: 15vh;
+}
+
+.pro1 h1 {
+  margin-right: 35vh;
+  font-size: 4.5vw;
+  text-align: right;
+}
+
+/* pre {
+    color: white;
+    font-size: 1.5vw;
+} */
+
+.pro1 button {
+  margin-left: 55vw;
+  padding: 1.5vh;
+  background-color: rgb(97, 251, 213);
+  border-radius: 20px;
+  border: 0;
+}
+
+.ipro2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.intoPro2 {
+  height: 66vh;
+  width: auto;
+
+  /* margin-left: 50vw;
+  margin-top: 12vw; */
+}
+
+.i {
+  background-color: rgb(36, 34, 33);
+  padding: 1vh;
+
+}
+
+
+.j {
+  background-color: rgb(0, 0, 0);
+  padding: 2vh;
+
+}
+
+.j pre {
+  /* margin-left: 7vh; */
+  text-align: center;
+ 
+}
+
+.ipro2 img {
+  height: 65vh;
+  width: 70vh;
+}
+
+.rechisha {
+  text-decoration: none;
+  width: 15vw;
+  border-radius: 0%;
+  font-weight: bold;
+  /* margin-right: 41vw; */
+  margin-top: 1vw;
+  /* margin-left: 55vw; */
+  padding: 1.5vh;
+  background-color: rgb(97, 251, 213);
+  border-radius: 20px;
+  border: 0;
+}
+
+
+
+.allInOnePlace {
+  text-align: center;
+  padding-top: 6vw;
+  padding-left: 10vh;
+}
+
+.allInOnePlace h1 {
+  font-size: 4vw;
+
+  color: white;
+}
+
+.allInOnePlace h3 {
+  font-weight: 70;
+  font-size: 3vh;
+  padding-bottom: 2vh;
+}
+
+.allInOnePlace pre {
+  text-align: center;
+  padding-left: 13%;
+  font-size: 2.3vh;
+}
+
+.allInOnePlace h2 {
+  font-weight: 80;
+}
+
+span {
+  color: rgb(97, 251, 213);
+}
+
+.another {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.another p {
+  font-size: 1.5vw;
+  text-align: right;
+  padding-bottom: 1.3vw;
+}
+
+.another pre {
+  font-size: 1.1vw;
+  text-align: right;
+}
+
+.another img {
+  height: 3.5vw;
+}
+
+.another div .intoAnather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.another div .intoAnather div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intoAnather {
+  padding-bottom: 4vw;
+}
+
+
+
+
+/* rubiAI */
+#nav2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  margin-top: 0;
+  padding-bottom: 1vh;
+}
+
+#nav2 a {
+  margin-top: 2vh;
+  color: white;
+  font-size: 2.6vh;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+
+#nav2 a button {
+  padding: 1vh;
+}
+
+#nav2 a .co {
+  background-color: rgb(97, 251, 213);
+}
+
+#nav2 img {
+  padding-top: 1vh;
+}
+
+
+.discover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.discover div {
+  background-color: rgb(17, 17, 19);
+}
+
+.discover div pre {
+  color: white;
+  font-size: 4vh;
+  margin-top: 27vh;
+  padding: 2vh;
+}
+
+.discover div pre span {
+  background-color: rgb(17, 17, 19);
+  color: white;
+  font-size: 20vh;
+}
+
+.discover img {
+  height: 75vh;
+}
+
+.discover div button {
+  margin-bottom: -4vh;
+  margin-right: 70%;
+  background-color: rgb(114, 220, 255);
+  padding: 1vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.discover div button a {
+  color: black;
+  font-weight: bold;
+  padding-top: 0.5vh;
+}
+
+.discover div button a img {
+  height: 3.2vh;
+  padding-right: 1vh;
+}
+
+.dontchange {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.dontchange img {
+  height: 10vh;
+  padding-right: 10vw;
+}
+
+.dontchange pre {
+  text-align: right;
+  font-size: 4vh;
+}
+
+.dontchange pre span {
+  color: rgb(114, 220, 255);
+  font-size: 2.5vh;
+}
+
+#toKnowOurSpeaches {
+  margin-top: 10vh;
+
+}
+
+#toKnowOurSpeaches pre {
+  font-size: 3vh;
+  text-align: center;
+  margin-left: 18vh;
+
+}
+
+#toKnowOurSpeaches pre span {
+  font-size: 13vh;
+  color: white;
+}
+
+.possible pre {
+  font-size: 3vh;
+  text-align: right;
+  padding-right: 30vw;
+  padding-top: 20vh;
+  padding-bottom: 25vh;
+}
+
+.possible pre span {
+  color: white;
+  font-size: 12vh;
+}
+
+.ulti {
+  padding-right: 17vw;
+  padding-bottom: 10vh;
+}
+
+.ulti h1 {
+  color: white;
+  font-size: 10vh;
+  text-align: right;
+  /* padding-right:4vw; */
+}
+
+.ulti p {
+  font-size: 3vh;
+  text-align: right;
+}
+
+.learnbetter {
+  display: flex;
+  flex-direction: row;
+}
+
+.learnbetter div img {
+  height: 75vh;
+  padding-right: 8vw;
+}
+
+
+.learnbetter div p,
+pre {
+  text-align: right;
+  padding-bottom: 3vh;
+  font-size: 2.8vh;
+  padding-right: 10vw;
+}
+
+.important {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.important pre span {
+  font-size: 3vh;
+  color: white;
+  font-weight: bold;
+}
+
+#percent {
+  background-color: rgb(114, 220, 255);
+}
+
+#percent p {
+  font-size: 5.5vh;
+  font-weight: bold;
+  padding: 0.3vh;
+}
+
+#percent p span {
+  color: black;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#allContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20vh;
+}
+
+#espacial #espacialpre1 {
+  font-size: 10vh;
+  font-weight: 500;
+}
+
+#espacial pre {
+  font-size: 5vh;
+}
+
+#ull {
+  margin-right: 15vh;
+  text-align: right;
+}
+
+#espacial button {
+  margin-right: 25%;
+  background-color: rgb(114, 220, 255);
+  padding: 1vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#espacial button a {
+  color: black;
+  font-weight: bold;
+  padding-top: 0.5vh;
+}
+
+#espacial button a img {
+  height: 3.2vh;
+  padding-right: 1vh;
+}
+
+#allUL {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#allUL ul {
+  padding: 4vh;
+  padding-left: 14vh;
+  text-align: right;
+  background-color: rgb(36, 34, 33);
+}
+
+#allUL ul li {
+  font-size: 3vh;
+}
+
+#price {
+  margin-top: 10vh;
+  padding-right: 14vh;
+  text-align: right;
+}
+
+#price h1 {
+  color: white;
+}
+
+#toMoving .inToMoving {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#toMoving .inToMoving .inToMovingPre {
+  font-size: 1.5vh;
+}
+.inToMoving .rechisha{
+  height: 3vw;
+  margin-top: 3vw;
+  margin-right: 2vw;
+}
+
+ #ques{
+  display: flex;
+  flex-direction: row;
+}
+#ques div pre{
+  font-size: 2vh;
+} 
+#ques div{
+  text-align: right;
+}
+#ques p{
+  margin-right: 7vh;
+margin-bottom: 10vh;
+}
+#mainAI .hhh{
+  margin-right: 7vh;
+  color: white;
+}
+#mainAI{
+  text-align: right;
+}
+#allFormAI{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#allFormAI div h1{
+  color: white;
+  font-size:6vh;
+}
+#formAI{
+  display: flex;
+  flex-direction: column;
+  padding-top: 8vh;
+}
+#formAI input{
+  background-color: black;
+  border: 0.5vh solid rgb(114, 220, 255);
+  height: 7vh;
+  width: 35vw;
+  margin-top: 2vh;
+}
+
+
+
+
+#inputChat {
+  position: fixed;
+  bottom: 2vh;
+  left: 50%;
+  width: 92vw;
+  padding: 1.2vh;
+  transform: translateX(-48%);
+  border: 0px solid transparent;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+#mainChat {
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  padding-bottom: 7vh;
+}
+
+#mainChat p {
+  color: black;
+  margin: 0;
+  padding-top: 2vh;
+  font-size: 1.2vw;
+}
+
+.imageChat {
+  position: fixed;
+  bottom: 2vh;
+  left: 1vw;
+  height: 2vw;
+}
+
+#move {
+  animation: wiggle 2s linear infinite;
+  position: absolute;
+}
+
+@keyframes wiggle {
+
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-15deg);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(-10deg);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+#bodyQuestion {
+  background-color: rgb(17, 17, 19);
+}
+
+#bodyQuestion .qust {
+  text-align: right;
+  padding-right: 20vw;
+}
+
+#bodyQuestion .qust pre {
+  font-family: Segoe UI;
+  font-size: 2vh;
+}
+
+#bodyQuestion .qust pre p {
+  color: rgb(97, 251, 213);
+  font-size: 2vh;
+}
+
+#bodiConact {
+  background-color: rgb(17, 17, 19);
+}
+
+#formConact {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  transform: translateX(-150%);
+}
+
+#formConact input {
+  height: 5vh;
+  margin-bottom: 2vh;
+}
+
+#formConact #texti {
+  height: 15vh;
+}
+
+#formConact #sub {
+  background-color: rgb(97, 251, 213);
+}
+
+.toConact {
+  margin-top: 20vh;
+}
+
+.toConact pre {
+  text-align: center;
+  padding-top: 0;
+  margin-left: 28vh;
+  font-family: Segoe UI;
+  font-size: 2.5vh;
+}
+
+.loader {
+  overflow: hidden;
+  position: fixed;
+  top: 50vh;
+  right: 45vw;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.loader__element {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size) * 2);
+}
+
+.loader__element:nth-child(1) {
+  animation: preloader 0.6s ease-in-out alternate infinite;
+}
+
+.loader__element:nth-child(2) {
+  animation: preloader 0.6s ease-in-out alternate 0.2s infinite;
+}
+
+.loader__element:nth-child(3) {
+  animation: preloader 0.6s ease-in-out alternate 0.4s infinite;
+}
+
+@keyframes preloader {
+  100% {
+    transform: scale(2);
+  }
+}
+
+:root {
+  --main-color: #ecf0f1;
+  --point-color: #555;
+  --size: 5px;
+}
+
+#formInvent {
+  color: black;
+}
+
+.theForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.topInvent {
+  background-color: rgb(247, 246, 247);
+  display: flex;
+  flex-direction: row;
+  border-top: 3px solid rgb(114, 220, 255);
+  margin-bottom: 3vh;
+}
+
+.topInvent p {
+  color: black;
+}
+
+.topInvent p span {
+  color: rgb(114, 220, 255);
+}
+
+.chiuvInvent {
+  width: 55%;
+}
+
+.chiuvInvent p {
+  text-align: right;
+  font-size: 2vh;
+}
+
+.inChiuvInvent {
+  display: flex;
+  flex-direction: column;
+}
+
+.inChiuvInvent input {
+  height: 4.5vh;
+  margin-bottom: 2vh;
+}
+
+.inChiuvInvent label span {
+  color: red;
+}
+
+.inChiuvInvent label {
+  font-weight: bold;
+  font-size: 1.5vh;
+  text-align: right;
+}
+
+.inChiuvInvent div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.inChiuvInvent div div input {
+  width: 100%;
+}
+
+.inChiuvInvent div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 3vh;
+}
+
+.Invent2 {
+  border: 1px solid gray;
+  padding: 4vh;
+  margin-right: 7vh;
+  width: 40%;
+}
+
+.Invent2 p {
+  font-size: 2vh;
+  text-align: right;
+}
+
+.Invent2 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Invent2 div p {
+  font-size: 1.8vh;
+}
+
+.Invent2 .typ {
+  display: flex;
+  flex-direction: column;
+}
+
+.Invent2 .typ div {
+  justify-content: flex-start;
+}
+
+.Invent2 .topay {
+  background-color: rgb(236, 229, 236);
+
+  margin: 0.5;
+}
+
+.Invent2 .topay p {
+  font-size: 1.7vh;
+}
+
+.Invent2 .prod p {
+  font-size: 1.8vh;
+}
+
+.Invent2 .thisDiv,
+.typ {
+  font-size: 1.7vh;
+  justify-content: start;
+}
+
+#bodyRechisha #thisP {
+  color: black;
+  font-size: 3.5vh;
+  text-align: right;
+}
+
+#toSend {
+  background-color: rgb(114, 220, 255);
+  padding: 2vh;
+  width: 100%;
+  border: 0 solid transparent;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+
+#bodyRechisha {
+  margin-right: 20%;
+  margin-left: 17%;
+  margin-top: 7vh;
+}
+
+.topForm {
+  width: 75%;
+}
+
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 5px;
+  background-color: rgb(97, 251, 213);
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover:after {
+  width: 100%;
+}
